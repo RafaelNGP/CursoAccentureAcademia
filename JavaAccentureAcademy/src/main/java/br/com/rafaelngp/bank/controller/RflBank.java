@@ -1,4 +1,4 @@
-package br.com.rafaelngp.bank;
+package br.com.rafaelngp.bank.controller;
 
 import br.com.rafaelngp.bank.entity.CheckingAccount;
 import br.com.rafaelngp.bank.entity.MixedAccount;
