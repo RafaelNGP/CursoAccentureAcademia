@@ -1,7 +1,5 @@
 public class HouseTest{
     public static void main(String[] args) {
-//        DoorTest.main(args);
-
         DoorTest doorTest = new DoorTest();
         System.out.println(doorTest.door1);
         System.out.println(doorTest.door2);
