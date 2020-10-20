@@ -18,7 +18,7 @@ public class Vendor extends Employee implements Negotiate {
         System.out.println("Mas tenha certeza que este veiculo sera seu companheiro fiel!");
         if (client.isPcD()){
             System.out.println("E nao cobramos taxas de IPI para voce! Apenas sucesso!");
-            System.out.printf("O valor do veiculo sera de %.2f", car.getPrice());
+            System.out.printf("O valor do veiculo sera de %.2f\n", car.getPrice());
         } else {
             car.setPrice(15000 * 1.15);
             System.out.printf("E importante saber que alem do valor base de nossos veiculos, " +
