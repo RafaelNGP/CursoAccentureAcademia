@@ -1,37 +1,23 @@
 package br.com.rafaelngp.bank.controller;
 
-import br.com.rafaelngp.bank.entity.CheckingAccount;
-import br.com.rafaelngp.bank.entity.MixedAccount;
-import br.com.rafaelngp.bank.entity.SavingsAccount;
+import br.com.rafaelngp.bank.entity.*;
 
 public class RflBank {
     public static void main(String[] args) {
-        CheckingAccount rafael = new CheckingAccount();
-        rafael.setName("Rafael");
+        CheckingAccount acc1 = new CheckingAccount();
+        acc1.setName("Rafael");
+        acc1.deposit(500);
 
-        SavingsAccount laura = new SavingsAccount();
-        laura.setName("Laura");
+        SavingsAccount acc2 = new SavingsAccount();
+        acc2.setName("Laura");
+        acc2.deposit(500);
 
-        MixedAccount simone = new MixedAccount();
-        simone.setName("Simone");
+        MixedAccount acc3 = new MixedAccount();
+        acc3.setName("Simone");
+        acc3.deposit(500);
 
-        rafael.deposit(250.00);
-        rafael.withdraw(10.00);
-        rafael.withdraw(10.00);
-        rafael.withdraw(10.00);
-        rafael.withdraw(10.00);
-        rafael.withdraw(10.00);
-        System.out.println(rafael);
-
-        laura.deposit(600);
-        System.out.println(laura);
-
-        simone.deposit(8000);
-        System.out.println(simone);
-
-        rafael.transfer(laura, 100);
-        System.out.println("Rafael: Ei Laura, passei pra voce o dinheiro da semana");
-        System.out.println(rafael);
-        System.out.println(laura);
+        System.out.println(acc1);
+        System.out.println(acc2);
+        System.out.println(acc3);
     }
 }

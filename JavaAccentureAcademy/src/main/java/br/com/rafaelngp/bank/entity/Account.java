@@ -18,7 +18,6 @@ public abstract class Account {
     public void deposit(double depositAmount) {
         this.amount += depositAmount;
     }
-
     public void withdraw(double withdrawAmount) {
         if (this.amount > withdrawAmount) {
             if (this.getType().equals("Checking Account") || this.getType().equals("Mixed Account")) {
@@ -31,42 +30,7 @@ public abstract class Account {
         } else
             System.out.println("Saldo insuficiente");
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAccountNumber() {
-        return this.NUMBER;
-    }
-
-    public double getAmount() {
-        return amount;
-    }
-
-    public double getAccountIncome() {
-        return amount * accountIncome;
-    }
-
-    @Override
-    public String toString() {
-        return "Account{" +
-                "NUMBER=" + NUMBER +
-                ", amount=" + amount +
-                ", name='" + name + '\'' +
-                ", accountIncome=" + accountIncome +
-                ", Type='" + Type + '\'' +
-                '}';
-    }
-
-    public abstract String getType();
-
     public void transfer(Account destinyAccount, double transferAmount){
-//        Remover dinheiro DESTA conta, e adicionar o dinheiro para a CONTA DESTINO.
         if (this.amount > transferAmount) {
             if (this.getType().equals("Checking Account")) {
                 this.amount -= transferAmount;
@@ -80,4 +44,27 @@ public abstract class Account {
         } else
             System.out.println("Saldo insuficiente");
     }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAccountNumber() {
+        return this.NUMBER;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+    public double getAccountIncome() {
+        return amount * accountIncome;
+    }
+
+    public String getType(){
+        return this.Type;
+    }
+    public abstract void setType();
 }
