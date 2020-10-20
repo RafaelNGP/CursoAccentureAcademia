@@ -11,8 +11,7 @@ public class SalesController {
     public static void main(String[] args) {
         var client1 = newClient();
         var car1 = newCar(client1);
-        Vendor vendor = new Vendor();
-        vendor.negotiate(client1, car1);
+        potentialSale(client1, car1);
     }
 
     public static Client newClient(){
@@ -74,6 +73,5 @@ public class SalesController {
                 manager.negotiate(client, car);
             }
         }
-
     }
 }
