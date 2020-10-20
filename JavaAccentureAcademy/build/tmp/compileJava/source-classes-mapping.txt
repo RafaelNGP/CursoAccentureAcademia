@@ -1,4 +1,0 @@
-br/com/rafaelngp/bank/Account.java
- br.com.rafaelngp.bank.Account
-br/com/rafaelngp/bank/AccountTest.java
- br.com.rafaelngp.bank.AccountTest
