@@ -22,16 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ede1c02f-c33a-4b71-b546-575703d45986" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/TestArraysSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/entity/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/entity/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/entity/SavingAccount.java" afterDir="false" />
+    <list default="true" id="ede1c02f-c33a-4b71-b546-575703d45986" name="Default Changelist" comment="commit inicial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/SetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/accenture/academy/controller/ListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ListTest">
+  <component name="RunManager" selected="Application.SetTest">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.accenture.academy.controller.ArrayTest" />
       <module name="TesteArraysAccentureAcademy.main" />
@@ -109,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.accenture.academy.controller.SetTest" />
+      <module name="TesteArraysAccentureAcademy.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.accenture.academy.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestArraysSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.accenture.academy.controller.TestArraysSplit" />
       <module name="TesteArraysAccentureAcademy.main" />
@@ -124,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetTest" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.TestArraysSplit" />
         <item itemvalue="Application.BankTest" />
@@ -140,6 +148,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603237279983</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit inicial">
+      <created>1603334283703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603334283703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +170,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="392" y="71" key="#Plugins" timestamp="1603326321173">
       <screen x="0" y="0" width="1600" height="860" />
@@ -163,22 +183,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603243274299" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1603329670826">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1603409824745">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603329670826" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1603329670826">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603409824745" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1603409824745">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603329670826" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1603329670825">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603409824745" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1603409824745">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603329670825" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1603329670826">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603409824745" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1603409824745">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603329670826" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603409824745" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1603241379693">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -195,6 +215,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603241379693" />
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2" timestamp="1603334286893">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="150" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603334286893" />
     <state x="182" y="40" key="new project wizard" timestamp="1603325976177">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

@@ -1,8 +1,6 @@
 package br.com.accenture.academy.controller;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ListTest {
     public static void main(String[] args) {
@@ -41,13 +39,33 @@ public class ListTest {
         System.out.println(listaMutavel);
 
 //        ex 6
+        listaMutavel.remove(2);
+
+//        ex 7
+        System.out.println(listaMutavel.contains("Branco"));
+        System.out.println(listaMutavel.indexOf("Verde"));
+
+//        ex 8
+        Collections.sort(listaMutavel);
+        System.out.println(listaMutavel);
+
+//        ex 9
+        ArrayList<ArrayList> novaLista = new ArrayList<>();
+        novaLista.add(listaMutavel);
+        System.out.println(novaLista);
+
         int[] numeros = new int[10];
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = i;
             System.out.println(numeros[i]);
         }
 
+        List<String > fruit = Arrays.asList(
+                "Apple", "Orange", "Dragon Fruit");
 
+        for (String s : fruit) {
+            System.out.println(s);
+        }
 
 /*      Collections.sort(listaMutavel);
         System.out.println(listaMutavel);*/
