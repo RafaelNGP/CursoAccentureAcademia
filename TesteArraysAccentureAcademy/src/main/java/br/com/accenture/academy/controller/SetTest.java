@@ -59,9 +59,7 @@ public class SetTest {
 
         nomesAlternativos.retainAll(nomesDeNovo);
 
-        Set<String> qlqrNome = new HashSet<>();
-        qlqrNome.addAll(nomesAlternativos);
-
+        Set<String> qlqrNome = new HashSet<>(nomesAlternativos);
         System.out.println(qlqrNome);
 
 //        ex 12
