@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testes.CalculadoraTeste" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-07T16:30:24" hostname="RafaelNGP-Note" time="0.009">
+  <properties/>
+  <testcase name="dividirDoisValores" classname="testes.CalculadoraTeste" time="0.005"/>
+  <testcase name="subtraiDoisValores" classname="testes.CalculadoraTeste" time="0.0"/>
+  <testcase name="potenciarDoisValores" classname="testes.CalculadoraTeste" time="0.0"/>
+  <testcase name="somaDoisValores" classname="testes.CalculadoraTeste" time="0.0"/>
+  <testcase name="multiplicarDoisValores" classname="testes.CalculadoraTeste" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
