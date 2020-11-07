@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class CalculadoraTeste {
 
     @Test
-    public void somaDoisValores(){
+    public void somaDoisValores() {
 
         int valorA = 1;
         int valorB = 2;
@@ -19,18 +19,18 @@ public class CalculadoraTeste {
     }
 
     @Test
-    public void subtraiDoisValores(){
+    public void subtraiDoisValores() {
         int valorA = 1;
         int valorB = 1;
 
         Calculadora calculadora = new Calculadora();
         int subtracao = calculadora.subtracao(valorA, valorB);
 
-        assertEquals(0,subtracao);
+        assertEquals(0, subtracao);
     }
 
     @Test
-    public void dividirDoisValores(){
+    public void dividirDoisValores() {
         int valorA = 2;
         int valorB = 2;
 
@@ -40,8 +40,19 @@ public class CalculadoraTeste {
         assertEquals(1, divisao);
     }
 
+    @Test(expected = ArithmeticException.class)
+    public void dividirZeroValores() {
+        int valorA = 2;
+        int valorB = 0;
+
+        Calculadora calculadora = new Calculadora();
+        int zero = calculadora.divisao(valorA, valorB);
+
+        assertEquals(0, zero);
+    }
+
     @Test
-    public void multiplicarDoisValores(){
+    public void multiplicarDoisValores() {
         int valorA = 2;
         int valorB = 2;
 
@@ -52,9 +63,9 @@ public class CalculadoraTeste {
     }
 
     @Test
-    public void potenciarDoisValores(){
+    public void potenciarDoisValores() {
         int valorA = 2;
-        int valorB = 2  ;
+        int valorB = 2;
 
         Calculadora calculadora = new Calculadora();
         int potencializacao = calculadora.potencia(valorA, valorB);
