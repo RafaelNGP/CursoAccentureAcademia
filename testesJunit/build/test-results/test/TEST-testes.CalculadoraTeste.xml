@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testes.CalculadoraTeste" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-07T17:14:41" hostname="RafaelNGP-Note" time="0.021">
+<testsuite name="testes.CalculadoraTeste" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-07T17:31:04" hostname="RafaelNGP-Note" time="0.008">
   <properties/>
-  <testcase name="dividirDoisValores" classname="testes.CalculadoraTeste" time="0.007"/>
-  <testcase name="subtraiDoisValores" classname="testes.CalculadoraTeste" time="0.001"/>
-  <testcase name="potenciarDoisValores" classname="testes.CalculadoraTeste" time="0.001"/>
-  <testcase name="somaDoisValores" classname="testes.CalculadoraTeste" time="0.002"/>
-  <testcase name="dividirZeroValores" classname="testes.CalculadoraTeste" time="0.001"/>
-  <testcase name="multiplicarDoisValores" classname="testes.CalculadoraTeste" time="0.0"/>
+  <testcase name="somaDoisValores" classname="testes.CalculadoraTeste" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

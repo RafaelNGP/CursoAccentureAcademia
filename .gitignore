@@ -98,3 +98,7 @@ testesJunit/build/test-results/test/TEST-testes.PrimeiroTeste.xml
 testesJunit/build/tmp/compileJava/source-classes-mapping.txt
 
 testesJunit/build/tmp/compileTestJava/source-classes-mapping.txt
+
+aula-erros/build/
+
+aula-erros/.idea/
